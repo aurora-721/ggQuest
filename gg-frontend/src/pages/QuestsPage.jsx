@@ -1,6 +1,5 @@
 import React from 'react';
 import QuestCardComp from '../components/QuestCardComp/QuestCardComp.jsx';
-import Footer from './Footer.jsx';
 
 function QuestsPage() {
   return (
@@ -40,7 +39,6 @@ function QuestsPage() {
             </div>
         </div>
     </section>
-    < Footer />
     </>
   )
 }

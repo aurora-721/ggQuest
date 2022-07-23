@@ -3,23 +3,23 @@ import React from 'react';
 function Footer() {
   return (
     <>
-        <footer class="home-five-footer">
-            <div class="footer-top footer-bg">
-                <div class="newsletter-area s-newsletter-area">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="newsletter-wrap">
-                                    <div class="section-title newsletter-title">
+        <footer className="home-five-footer">
+            <div className="footer-top footer-bg">
+                <div className="newsletter-area s-newsletter-area">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-12">
+                                <div className="newsletter-wrap">
+                                    <div className="section-title newsletter-title">
                                         <h2>Our <span>Newsletter</span></h2>
                                     </div>
-                                    <div class="newsletter-form">
+                                    <div className="newsletter-form">
                                         <form action="#">
-                                            <div class="newsletter-form-grp">
-                                                <i class="far fa-envelope"></i>
+                                            <div className="newsletter-form-grp">
+                                                <i className="far fa-envelope"></i>
                                                 <input type="email" placeholder="Enter your email..." />
                                             </div>
-                                            <button>SUBSCRIBE <i class="fas fa-paper-plane"></i></button>
+                                            <button>SUBSCRIBE <i className="fas fa-paper-plane"></i></button>
                                         </form>
                                     </div>
                                 </div>
@@ -27,32 +27,32 @@ function Footer() {
                         </div>
                     </div>
                 </div>
-                <div class="container">
-                    <div class="row justify-content-between">
-                        <div class="col-xl-3 col-lg-4 col-md-6">
-                            <div class="footer-widget mb-50">
-                                <div class="footer-logo mb-35">
+                <div className="container">
+                    <div className="row justify-content-between">
+                        <div className="col-xl-3 col-lg-4 col-md-6">
+                            <div className="footer-widget mb-50">
+                                <div className="footer-logo mb-35">
                                     <a href="index.html"><img src={require('../assets/img/logo/w_h5_logo.png')} alt="" /></a>
                                 </div>
-                                <div class="footer-text">
+                                <div className="footer-text">
                                     <p>Gemas marketplace the relase etras thats sheets continig passag.</p>
-                                    <div class="footer-contact">
+                                    <div className="footer-contact">
                                         <ul>
-                                            <li><i class="fas fa-map-marker-alt"></i> <span>Address : </span>PO Box W75 Street
+                                            <li><i className="fas fa-map-marker-alt"></i> <span>Address : </span>PO Box W75 Street
                                                 lan West new queens</li>
-                                            <li><i class="fas fa-headphones"></i> <span>Phone : </span>+24 1245 654 235</li>
-                                            <li><i class="fas fa-envelope-open"></i><span>Email : </span>info@exemple.com</li>
+                                            <li><i className="fas fa-headphones"></i> <span>Phone : </span>+24 1245 654 235</li>
+                                            <li><i className="fas fa-envelope-open"></i><span>Email : </span>info@exemple.com</li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-2 col-lg-3 col-sm-6">
-                            <div class="footer-widget mb-50">
-                                <div class="fw-title mb-35">
+                        <div className="col-xl-2 col-lg-3 col-sm-6">
+                            <div className="footer-widget mb-50">
+                                <div className="fw-title mb-35">
                                     <h5>Products</h5>
                                 </div>
-                                <div class="fw-link">
+                                <div className="fw-link">
                                     <ul>
                                         <li><a href="#">Graphics (26)</a></li>
                                         <li><a href="#">Backgrounds (11)</a></li>
@@ -63,12 +63,12 @@ function Footer() {
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-2 col-lg-3 col-sm-6">
-                            <div class="footer-widget mb-50">
-                                <div class="fw-title mb-35">
+                        <div className="col-xl-2 col-lg-3 col-sm-6">
+                            <div className="footer-widget mb-50">
+                                <div className="fw-title mb-35">
                                     <h5>Need Help?</h5>
                                 </div>
-                                <div class="fw-link">
+                                <div className="fw-link">
                                     <ul>
                                         <li><a href="#">Terms & Conditions</a></li>
                                         <li><a href="#">Privacy Policy</a></li>
@@ -79,47 +79,47 @@ function Footer() {
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-3 col-lg-4 col-md-6">
-                            <div class="footer-widget mb-50">
-                                <div class="fw-title mb-35">
+                        <div className="col-xl-3 col-lg-4 col-md-6">
+                            <div className="footer-widget mb-50">
+                                <div className="fw-title mb-35">
                                     <h5>Follow us</h5>
                                 </div>
-                                <div class="footer-social">
+                                <div className="footer-social">
                                     <ul>
-                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                        <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i className="fab fa-twitter"></i></a></li>
+                                        <li><a href="#"><i className="fab fa-pinterest-p"></i></a></li>
+                                        <li><a href="#"><i className="fab fa-linkedin-in"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
-                            <div class="footer-widget mb-50">
-                                <div class="fw-title mb-35">
+                            <div className="footer-widget mb-50">
+                                <div className="fw-title mb-35">
                                     <h5>Newsletter Sign Up</h5>
                                 </div>
-                                <div class="footer-newsletter">
+                                <div className="footer-newsletter">
                                     <form action="#">
                                         <input type="text" placeholder="Enter your email"/>
-                                        <button><i class="fas fa-rocket"></i></button>
+                                        <button><i className="fas fa-rocket"></i></button>
                                     </form>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="footer-fire"><img src={require('../assets/img/images/footer_fire.png')} alt="" /></div>
-                <div class="footer-fire footer-fire-right"><img src={require('../assets/img/images/footer_fire.png')} alt="" /></div>
+                <div className="footer-fire"><img src={require('../assets/img/images/footer_fire.png')} alt="" /></div>
+                <div className="footer-fire footer-fire-right"><img src={require('../assets/img/images/footer_fire.png')} alt="" /></div>
             </div>
-            <div class="copyright-wrap s-copyright-wrap">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6">
-                            <div class="copyright-text">
+            <div className="copyright-wrap s-copyright-wrap">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-lg-6 col-md-6">
+                            <div className="copyright-text">
                                 <p>Copyright © 2020 <a href="#">Geco</a> All Rights Reserved.</p>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-md-6 d-none d-md-block">
-                            <div class="payment-method-img text-right">
+                        <div className="col-lg-6 col-md-6 d-none d-md-block">
+                            <div className="payment-method-img text-right">
                                 <img  src={require('../assets/img/images/card_img.png')} alt="../assets/img" />
                             </div>
                         </div>

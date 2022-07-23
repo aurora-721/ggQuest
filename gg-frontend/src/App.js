@@ -25,6 +25,10 @@ import "./assets/css/slick.css";
 import "./assets/css/style.css";
 // ------------------------ pages ---------------------------------------
 import QuestsPage from './pages/QuestsPage.jsx';
+import LeaderBoard from './pages/LeaderBoard.jsx'
+import Footer from './pages/Footer.jsx';
+// ------------------------- links -------------------------------------
+import { Link } from "react-router-dom";
 
 
 import contract from "./contracts/NumberBox.json";
@@ -97,6 +101,8 @@ function App() {
     <WagmiConfig client={wagmiClient}>
       <RainbowKitProvider chains={chains}>
         <div>
+          <Link to="/invoices">Invoices</Link> |
+          <Link to="/expenses">Expenses</Link>
           <ConnectButton />
           <h1>Number Box</h1>
           <div>
@@ -115,6 +121,8 @@ function App() {
           </div>
         </div>
         <QuestsPage />
+        <LeaderBoard />
+        <Footer />
 
       </RainbowKitProvider>
     </WagmiConfig>
